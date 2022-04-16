@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  display: flex;
+  background: rgb(75, 123, 74);
+  color: white;
+  height: 100px;
+}
+#logo {
+  height: 95px;
+  margin-left: 50px;
+}
+#major {
+  margin-left: 250px;
+  font-size: 29px;
+  margin-top: 25px;
+}
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-left: 500px;
+  font-family: helvetica, arial, sans-serif;
+}
+#Graph {
+  position: absolute;
+  width: 900px;
+  height: 650px;
+  left: 500px;
+  margin-bottom: 50px;
+  border: 4px solid black;
+  margin: 1vw 0vw 0vw 3vw;
+}
+#list-countries {
+  position: absolute;
+  display: inline-block;
+  width: 450px;
+  height: 650px;
+  border: 4px solid black;
+  margin: 1vw 0vw 0vw 1vw;
+  overflow: auto;
+  white-space: nowrap;
+}
+.list {
+  width: 370px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  right: 20px;
+  margin-left: 30px;
+  background: #f3f0f1;
+  position: flex;
+  background: rgb(75, 123, 74);
+  line-height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  font-family: helvetica, arial, sans-serif;
+  border-radius: 10px;
+}
+footer p {
+  font-size: 25px;
+  font-family: helvetica, arial, sans-serif;
+  padding-top: 20px;
+}
+footer {
+  background-color: rgb(75, 123, 74);
+  width: 100%;
+  height: 65px;
+  margin-top: 690px;
+  text-align: center;
+}
